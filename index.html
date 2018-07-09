@@ -1,20 +1,52 @@
 <!DOCTYPE html>
 <html>
+<head>
     
-    <style>        
-    
-    table, th, td {
-        border: 1px solid black;
-    }
-    
-    </style>
-    
-<body>
-    
-    <div align="center" style="color:rgb(0,255,255);" >
-    <object width="200" height="200" border="2"><div style=color:rgb(0,0,0);">Index</div></object>
-    </div>
+    <title>Index</title>
+        
+</head>
+<style>
 
+#wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 5px;
+    text-align: left;    
+}
+
+</style>
+<body> <!-- Wait For CSS -->
+
+    <h1 align="center" >Index</h1>
+    
+    <div id="wrapper">
+    <button align="center">Add Task</button>
+    </div>
+    
+    &nbsp;
+    
+    <table style width="260" align="center">
+        
+        <tr>
+        <th colspan="4" align="center">What needs to be done still</th>    
+        </tr>
+        <tr>
+        <td><input type="checkbox"></td>
+        <td>Make Bank</td>
+        </tr>
+        <tr>
+        <td><input type="checkbox"></td>
+        <td>Make Bank</td> 
+        </tr>
+    </table>
 
 </body>
 
