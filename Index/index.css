@@ -54,6 +54,15 @@ th, td {
     font-size:14pt;
 }
 
+.bawb{
+    border:2px solid rgb(255,255,255);
+    border-radius:5px 5px;
+    display:block;
+    width:150px;
+    margin:auto;
+    font-size:40px;
+}
+
 
 #add-newtodo-button{
     font-size:20px;
