@@ -1,3 +1,10 @@
+html, body {
+    width: 100%;
+}
+table {
+    margin: 0 auto;
+}
+
 html{
     font-family:"Comic Sans MS";
 }
@@ -6,22 +13,33 @@ body{
     background-color:#000;
 }
 
+h2{
+    color: white;
+    text-align: center;
+}
 
 h3{
     color:#FFF;
 }
 
+th, td {
+    padding: 9px;
+    text-align: center;
+}
+
 .box-1{
     background-color:#E74C3C;
-    color:#ECF0F1;
+    color: white;
 }
 
 .box-2{
     background-color:#3498D8;
-    color:#ECF0F1;
+    color:white;
 }
 
-
+.table{
+    color:white;
+}
 
 .palgo {
     margin: auto;
