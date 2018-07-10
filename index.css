@@ -38,6 +38,10 @@ table {
     font-size:26px;
 }
 
+.donetodo{
+text-decoration:line-through;
+}
+
 .table{
     color:white;
 }
@@ -66,7 +70,7 @@ table {
 }
 
 
-#add-newtodo-button{
+#B1{
     font-size:24px;
     text-align:center;
     color:#000000;
@@ -80,11 +84,11 @@ table {
     margin-top:10px;
 }
 
-#add-newtodo-button:active{
+#B1:active{
     box-shadow:1px 1px 1px #90A4AE;
 }
 
-#add-newtodo-button:hover{
+#B1:hover{
     border-style:dotted;
 }
 
