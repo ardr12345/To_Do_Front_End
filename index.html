@@ -4,62 +4,52 @@
     
     <title>Index</title>
       <link rel="stylesheet" href="index.css" type="text/css" /> 
-      
+        <script type="text/javascript" src="Addtask.js"></script>
+        <script src="https://ajaxgoogleapis.com/ajax/libs/jquery/3.2.1/jquery-min.js"></script>
+        
 </head>
 <style>
 
-    #wrapper {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
 
-    table, th, td {
-       border: 1px solid white;
-    }
-
-    table {
-    border-collapse: collapse;
-    color:white;
-    font-size:20px;
-}
 
 </style>
-<body>
+<body background="https://wallup.net/wp-content/uploads/2017/11/17/272956-dark-black-cube-square-Tile-simple.jpg">
 
     <h2 class="bawb">Index</h2>
     
     <div id="wrapper">
+    <span>
+    <form action="AddTask.html">
         <button align="center" id="add-newtodo-button"
         type="submit" value="add todo">Add a Task</button>
+    </form>
+    </span>
+        <button align="center" id="add-newtodo-button"
+        type="submit" value="add todo">Delete</button>
     </div>
     <br>
     
     
 <table>
     <tr>
-        <td>Complete?</td> 
         <td>What Needs to Be done?</td>
         <td>Due Date?</td>
         <td>Time</td>
     </tr>
     
     <tr>
-        <td>No</td> 
         <td>Make A lot of Money</td> 
         <td>June 12th</td>
         <td>9999</td>
     </tr>
 
     <tr>
-        <td>No</td>  
         <td>Make A lot of Money</td>
         <td>June 12th</td>
         <td>9999</td>
     </tr>
     
       <tr>
-        <td>No</td>  
         <td>Make A lot of Money</td>
         <td>June 12th</td>
         <td>9999</td>
@@ -68,10 +58,7 @@
 </table>
 <br>
 
-<div id="wrapper">
-        <button align="center" id="add-newtodo-button"
-        type="submit" value="add todo">Delete</button>
-    </div>
+
 
 </body>
 
