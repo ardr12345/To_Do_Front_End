@@ -3,50 +3,50 @@
 <head>
     
     <title>Index</title>
-        
+      <link rel="stylesheet" href="index.css" type="text/css" /> 
+      
 </head>
 <style>
 
-#wrapper {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
+    #wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 
-table, th, td {
-    border: 1px solid black;
-    border-collapse: collapse;
-}
-th, td {
-    padding: 5px;
-    text-align: left;    
-}
 
 </style>
-<body> <!-- Wait For CSS -->
+<body>
 
-    <h1 align="center" >Index</h1>
+    <h2 style="color:white;" align="center">Index</h2>
     
     <div id="wrapper">
-    <button align="center">Add Task</button>
+        <button align="center" id="add-newtodo-button"
+        type="submit" value="add todo">Add a Task</button>
     </div>
+
+    &nsbp;
     
-    &nbsp;
+    <h3>What needs to be done</h3>
     
-    <table style width="260" align="center">
-        
-        <tr>
-        <th colspan="4" align="center">What needs to be done still</th>    
-        </tr>
-        <tr>
-        <td><input type="checkbox"></td>
-        <td>Make Bank</td>
-        </tr>
-        <tr>
-        <td><input type="checkbox"></td>
-        <td>Make Bank</td> 
-        </tr>
-    </table>
+    <ul>
+        <span class="box-1"><li>Make A lot of Money</li></span>    
+        <span class="box-2"><li>Make A lot of Money</li></span>    
+    </ul>
+    
+    <h3>How Long it will take</h3>
+    <ul>
+        <span class="box-1"><li>600</li></span>
+        <span class="box-2"><li>600</li></span>
+    </ul>
+    
+    <h3>When is it Due</h3>
+    <ul>
+        <span class="box-1"><li>June 16th 2019</li></span>
+        <span class="box-2"><li>June 16th 2019</li></span>
+    </ul>
+
+
 
 </body>
 
