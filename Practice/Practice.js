@@ -6,8 +6,3 @@ function updateName(){
     var name=prompt("Enter a new name");
     button_content.textContent="Player1:"+name;
 }
-
-function addName(){
-    var name=prompt("Enter a New name");
-    button_content.textContent="Player1:"+name;
-}

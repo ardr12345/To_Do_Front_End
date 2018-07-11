@@ -1,0 +1,41 @@
+footer {
+    font-size: .8rem;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+.output {
+    background: #eee;
+    position: relative;
+}
+
+.center { margin:auto; }
+
+#B1{
+    font-size:24px;
+    text-align:center;
+    color:#000000;
+    outline:none;
+    border-style:none;
+    padding:10px;
+    border-radius:0px;
+    box-shadow:2px 2px 1px #90A4AE;
+    display:block;
+    background-color:White;
+    margin-top:10px;
+}
+
+#B1:active{
+    box-shadow:1px 1px 1px #90A4AE;
+}
+
+#B1:hover{
+    border-style:dotted;
+}
+
+#wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
